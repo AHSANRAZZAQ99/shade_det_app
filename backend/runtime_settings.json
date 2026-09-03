@@ -1,0 +1,103 @@
+{
+  "camera": {
+    "device": "USB Camera 0",
+    "resolution": "1920 \u00d7 1080 (Full HD)",
+    "fps": 30,
+    "exposure": 50,
+    "brightness": 50,
+    "contrast": 50,
+    "saturation": 50,
+    "sharpness": 50,
+    "whiteBalance": "Auto",
+    "autoFocus": true,
+    "captureMode": "Continuous"
+  },
+  "detection": {
+    "deltaE": 3,
+    "pixelDensity": 0.05,
+    "minDefectArea": 100,
+    "colorSpace": "CIE Lab (\u0394E)",
+    "zoneSensitivity": "Medium",
+    "lcrEnabled": true,
+    "overlayEnabled": true,
+    "shadeDetection": true,
+    "smoothingEnabled": true,
+    "realtimeMode": true,
+    "alertLevel": "warning",
+    "engineActive": false,
+    "zones": {
+      "Left": true,
+      "Center": true,
+      "Right": true
+    },
+    "zoneSensitivityMap": {
+      "Left": "Medium",
+      "Center": "High",
+      "Right": "Medium"
+    }
+  },
+  "storage": {
+    "saveDefect": true,
+    "saveNormal": false,
+    "dailyFolder": true,
+    "basePath": "C:/shade_det_app/database/",
+    "defectSubfolder": "By Date",
+    "imageFormat": "TIFF",
+    "compression": "Medium",
+    "saveTimestamp": true,
+    "saveMetadata": true,
+    "autoCleanup": true,
+    "retention": "30 days"
+  },
+  "system": {
+    "theme": "Light",
+    "language": "English",
+    "autoStartCamera": true,
+    "autoStartDetection": false,
+    "minimizeToTray": false,
+    "startWithOS": false,
+    "notificationsEnabled": true,
+    "soundAlerts": true,
+    "desktopPopups": true,
+    "systemLogs": true,
+    "logLevel": "INFO",
+    "logOutput": "Both",
+    "maxLogSize": "50 MB",
+    "apiPort": "5000",
+    "customPort": ""
+  },
+  "model": {
+    "modelType": "ShadeNet (Custom CNN)",
+    "modelVersion": "ShadeNet_v1",
+    "customModelPath": "",
+    "inferenceMode": "realtime",
+    "intervalN": 5,
+    "device": "Auto (best available)",
+    "precision": "FP32 (full)",
+    "batchSize": "1",
+    "confidence": 0.75,
+    "warmupEnabled": true,
+    "fallbackToCPU": true,
+    "modelStatus": "disabled"
+  },
+  "security": {
+    "operatorName": "ahsan",
+    "role": "Operator",
+    "adminRequired": true,
+    "sessionTimeout": "15 min",
+    "twoStepConfirm": true,
+    "allowLogout": true,
+    "systemLocked": true,
+    "lockOnIdle": true,
+    "permissions": {
+      "Camera Controls": true,
+      "Detection Settings": false,
+      "Storage Settings": false,
+      "Model Settings": false,
+      "System Settings": false,
+      "Export Reports": true,
+      "User Management": false,
+      "Shutdown / Restart": false
+    }
+  }
+}

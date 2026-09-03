@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+fabric-shade-ui/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Generated/runtime data
+logs/
+temp_uploads/
+fabric-shade-ui/temp_uploads/
+database/defected/
+test_images/
+
+# Model files
+*.pth
+*.pt
+
+
+fabric-shade-ui/build/

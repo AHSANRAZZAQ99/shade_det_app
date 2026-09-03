@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page-bg-top: #cfd8e4;
+  --page-bg-bottom: #bcc8d8;
+  --panel-border: #b8c2cf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 0%, var(--page-bg-top), var(--page-bg-bottom) 55%, #aebacc);
+  color: #1d2f49;
+}
+
+@keyframes defectThumbIn {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.92);
+    box-shadow: 0 0 0 rgba(255, 43, 43, 0);
+  }
+
+  45% {
+    opacity: 1;
+    transform: translateY(0) scale(1.03);
+    box-shadow: 0 0 0 1px rgba(255, 43, 43, 0.55), 0 0 24px rgba(255, 43, 43, 0.3);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 1px rgba(255, 43, 43, 0.15);
+  }
+}
+
+.incoming-thumb {
+  animation: defectThumbIn 0.7s ease-out;
+}

@@ -1,0 +1,29 @@
+body{
+margin:0;
+background:#0f172a;
+color:white;
+font-family:Arial;
+}
+
+.layout{
+display:flex;
+height:calc(100vh - 60px);
+}
+
+.camera-section{
+flex:3;
+padding:20px;
+}
+
+.analysis-section{
+flex:1;
+background:#111827;
+padding:20px;
+border-left:1px solid #334155;
+}
+
+.panel{
+background:#1e293b;
+padding:20px;
+border-radius:8px;
+}

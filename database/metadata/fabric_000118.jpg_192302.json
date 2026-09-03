@@ -1,0 +1,15 @@
+{
+    "image": "fabric_000118.jpg",
+    "defect_type": "GLOBAL_VARIATION",
+    "pixel_density": {
+        "LEFT": 0.005667499083577713,
+        "CENTER": 0.011274857954545454,
+        "RIGHT": 0.16146118877923976
+    },
+    "deviations": {
+        "LEFT": 3.5738476648470368,
+        "CENTER": 7.6855738607781205,
+        "RIGHT": -11.259421525625172
+    },
+    "timestamp": "2026-03-09 19:23:02"
+}

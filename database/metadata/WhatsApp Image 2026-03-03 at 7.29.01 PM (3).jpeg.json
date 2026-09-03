@@ -1,0 +1,15 @@
+{
+    "image": "WhatsApp Image 2026-03-03 at 7.29.01 PM (3).jpeg",
+    "defect_type": "CENTER_LIGHTER",
+    "pixel_density": {
+        "LEFT": 0.0,
+        "CENTER": 0.0,
+        "RIGHT": 0.0
+    },
+    "deviations": {
+        "LEFT": -4.207719970424144,
+        "CENTER": 5.543515157625865,
+        "RIGHT": -1.3357951872017217
+    },
+    "timestamp": "2026-03-06 19:11:31"
+}

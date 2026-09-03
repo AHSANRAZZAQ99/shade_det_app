@@ -1,0 +1,15 @@
+{
+    "image": "WhatsApp Image 2026-03-03 at 8.04.03 PM.jpeg",
+    "defect_type": "GLOBAL_VARIATION",
+    "pixel_density": {
+        "LEFT": 0.2808095952023988,
+        "CENTER": 0.37106446776611696,
+        "RIGHT": 0.4499250374812594
+    },
+    "deviations": {
+        "LEFT": -9.648925537231378,
+        "CENTER": 16.629935032483765,
+        "RIGHT": -6.981009495252373
+    },
+    "timestamp": "2026-03-06 19:11:31"
+}

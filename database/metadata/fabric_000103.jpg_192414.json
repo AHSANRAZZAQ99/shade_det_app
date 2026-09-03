@@ -1,0 +1,15 @@
+{
+    "image": "fabric_000103.jpg",
+    "defect_type": "LOCAL_UNIFORMITY_ISSUE",
+    "pixel_density": {
+        "LEFT": 0.0,
+        "CENTER": 0.0,
+        "RIGHT": 0.0
+    },
+    "deviations": {
+        "LEFT": -1.125699240923673,
+        "CENTER": 2.043031285102721,
+        "RIGHT": -0.9173320441790622
+    },
+    "timestamp": "2026-03-09 19:24:14"
+}
