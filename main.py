@@ -20,8 +20,6 @@ roi_manager = ROIManager()
 #from processing.efficientnet_model import EfficientNetModel
 
 
-import os
-
 BASE_DIR = os.path.dirname(
     os.path.abspath(__file__)
 )
